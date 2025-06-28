@@ -3,6 +3,7 @@ import random
 
 st.set_page_config(page_title="Lousa Interativa - UPE Salgueiro", layout="wide")
 st.markdown("## Lousa Interativa - UPE Salgueiro")
+st.markdown("## Docente: **Prof. Me. Eduardo da Silva**")
 st.markdown("## Disciplina: **Gestão de Projetos**")
 
 
@@ -13,22 +14,23 @@ alunos = [
 ]
 
 ideias = [
-    ('Lucas', 'Produtividade é alcançar metas com eficiência.'),
-    ('Mariana', 'Saber priorizar tarefas importantes.'),
-    ('Rafael', 'Buscar sempre melhoria contínua.'),
-    ('Beatriz', 'Reduzir desperdícios no processo.'),
-    ('Fernando', 'Focar nos resultados entregues.'),
-    ('Camila', 'Organização do tempo é essencial.'),
-    ('João', 'A colaboração da equipe aumenta a produtividade.'),
-    ('Ana', 'Automatizar atividades rotineiras.'),
-    ('Gabriel', 'Ter clareza dos objetivos.'),
-    ('Larissa', 'Manter disciplina nas entregas.'),
-    ('Vinicius', 'Saber delegar é fundamental.'),
-    ('Paula', 'Adaptação às mudanças é chave.'),
-    ('Rodrigo', 'Comunicação eficaz melhora resultados.'),
-    ('Jéssica', 'Planejamento evita retrabalho.'),
-    ('Thiago', 'Gestão do tempo faz a diferença.')
+    ('Lucas', 'O TAP serve como ponto de partida para todo o projeto, formalizando o seu início.'),
+    ('Mariana', 'Registrar as restrições no TAP ajuda a evitar conflitos futuros e orienta as decisões.'),
+    ('Rafael', 'Identificar os stakeholders no TAP garante que todos os interesses sejam considerados desde o início.'),
+    ('Beatriz', 'Premissas bem definidas no TAP permitem planejar melhor as próximas etapas do projeto.'),
+    ('Fernando', 'O TAP é fundamental para alinhar expectativas entre a equipe do projeto e os patrocinadores.'),
+    ('Camila', 'Um TAP completo precisa apresentar os objetivos claros do projeto.'),
+    ('João', 'A EAP detalha o escopo e facilita o entendimento do que precisa ser entregue.'),
+    ('Ana', 'A decomposição do projeto em pacotes de trabalho na EAP ajuda no controle e acompanhamento.'),
+    ('Gabriel', 'A EAP facilita a distribuição das responsabilidades entre os membros da equipe.'),
+    ('Larissa', 'Dividir o projeto em partes menores torna a gestão das atividades mais eficiente.'),
+    ('Vinicius', 'A EAP contribui para um planejamento mais realista do cronograma e dos custos.'),
+    ('Paula', 'A EAP deve mostrar todas as entregas principais e secundárias do projeto de forma estruturada.'),
+    ('Rodrigo', 'TAP e EAP se complementam, pois um define o projeto e o outro detalha como ele será executado.'),
+    ('Jéssica', 'Representar a EAP graficamente, como em um organograma, facilita a visualização do escopo.'),
+    ('Thiago', 'Sem um TAP, o projeto pode perder direção e clareza logo no início.')
 ]
+
 
 cores = [
     '#FFF176', '#AED581', '#81D4FA', '#CE93D8', '#FFAB91',
