@@ -4,7 +4,7 @@ import random
 st.set_page_config(page_title="Lousa Interativa - UPE Salgueiro", layout="wide")
 st.markdown("## Lousa Interativa - UPE Salgueiro")
 st.markdown("## Docente: **Prof. Me. Eduardo da Silva**")
-st.markdown("## Disciplina: **Gestão de Projetos**")
+st.markdown("## Disciplina: Gestão da Produção e Operações (ADM0402)")
 
 
 alunos = [
@@ -14,22 +14,35 @@ alunos = [
 ]
 
 ideias = [
-    ('Lucas', 'O TAP serve como ponto de partida para todo o projeto, formalizando o seu início.'),
-    ('Mariana', 'Registrar as restrições no TAP ajuda a evitar conflitos futuros e orienta as decisões.'),
-    ('Rafael', 'Identificar os stakeholders no TAP garante que todos os interesses sejam considerados desde o início.'),
-    ('Beatriz', 'Premissas bem definidas no TAP permitem planejar melhor as próximas etapas do projeto.'),
-    ('Fernando', 'O TAP é fundamental para alinhar expectativas entre a equipe do projeto e os patrocinadores.'),
-    ('Camila', 'Um TAP completo precisa apresentar os objetivos claros do projeto.'),
-    ('João', 'A EAP detalha o escopo e facilita o entendimento do que precisa ser entregue.'),
-    ('Ana', 'A decomposição do projeto em pacotes de trabalho na EAP ajuda no controle e acompanhamento.'),
-    ('Gabriel', 'A EAP facilita a distribuição das responsabilidades entre os membros da equipe.'),
-    ('Larissa', 'Dividir o projeto em partes menores torna a gestão das atividades mais eficiente.'),
-    ('Vinicius', 'A EAP contribui para um planejamento mais realista do cronograma e dos custos.'),
-    ('Paula', 'A EAP deve mostrar todas as entregas principais e secundárias do projeto de forma estruturada.'),
-    ('Rodrigo', 'TAP e EAP se complementam, pois um define o projeto e o outro detalha como ele será executado.'),
-    ('Jéssica', 'Representar a EAP graficamente, como em um organograma, facilita a visualização do escopo.'),
-    ('Thiago', 'Sem um TAP, o projeto pode perder direção e clareza logo no início.')
+    ('Lucas', 'A produção por projeto é utilizada para produtos únicos, como a construção de pontes ou navios.'),
+    ('Mariana', 'Na produção em lotes, há flexibilidade para produzir diferentes produtos em pequenas quantidades.'),
+    ('Rafael', 'A produção em massa é caracterizada por grandes volumes e alta padronização, como nas montadoras de automóveis.'),
+    ('Beatriz', 'A produção contínua ocorre em processos ininterruptos, como em refinarias ou fábricas de cimento.'),
+    ('Fernando', 'O layout posicional é o mais indicado para linhas de montagem de automóveis.'),  # ERRADA!
+    ('Camila', 'No layout por processo, os equipamentos são organizados conforme as etapas do produto final.'),  # ERRADA!
+    ('João', 'Qual a principal diferença entre produção por projeto e produção em massa?'),
+    ('Ana', 'Explique por que o layout por produto favorece a padronização dos processos produtivos.'),
+    ('Gabriel', 'O layout celular agrupa máquinas de acordo com famílias de produtos, proporcionando flexibilidade e eficiência.'),
+    ('Larissa', 'Um bom layout produtivo reduz deslocamentos desnecessários e aumenta a produtividade.'),
+    ('Vinicius', 'Mudanças no layout podem impactar custos, segurança e ergonomia no ambiente de trabalho.'),
+    ('Paula', 'Sistemas de produção eficientes são fundamentais para a competitividade das organizações.'),
+    ('Rodrigo', 'É possível adotar layouts híbridos, combinando características de diferentes tipos.'),
+    ('Jéssica', 'A padronização de processos é mais fácil em sistemas de produção em massa e layout por produto.'),
+    ('Thiago', 'A escolha errada do sistema de produção pode gerar desperdícios e ineficiência.')
 ]
+
+
+# Legenda das erradas:
+
+# Fernando: "O layout posicional é o mais indicado para linhas de montagem de automóveis." (Errada: O correto seria layout por produto)
+
+# Camila: "No layout por processo, os equipamentos são organizados conforme as etapas do produto final." (Errada: No layout por processo, os equipamentos são organizados por função, não por etapas do produto)
+
+# Cartões em formato de questão:
+
+# João: "Qual a principal diferença entre produção por projeto e produção em massa?"
+
+# Ana: "Explique por que o layout por produto favorece a padronização dos processos produtivos."
 
 
 cores = [
